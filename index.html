@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
-        body {
+         body {
             display: flex;
             justify-content: flex-start;
-            align-items: center;
+            align-items: flex-end; /* Align items to the bottom */
             height: 100vh;
             margin: 0;
+            padding: 20px; /* Add padding to provide space from the edges */
+            background:linear-gradient(130deg,black,#8d105d); /* Background gradient */
+            box-sizing: border-box; /* Ensure padding is included in the height calculation */
         }
         spline-viewer {
             width: 50%;
-            height: 100vh;
+            height: 100%;
+           
         }
+      
     </style>
 </head>
 <body>
+   
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.8.5/build/spline-viewer.js"></script>
-    <spline-viewer url="https://prod.spline.design/Qw81Io5Uimr2mRZz/scene.splinecode"></spline-viewer>
+<spline-viewer url="https://prod.spline.design/Rb9fxLacV16grHNE/scene.splinecode"></spline-viewer>
 </body>
 </html>
